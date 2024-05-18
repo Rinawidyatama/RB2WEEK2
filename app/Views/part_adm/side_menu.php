@@ -32,18 +32,20 @@
                         </p>
                     </a>
                 </li>
-                <?php
-                    if (session()->get('hak_akses') == 'admin') {
-                ?>
+                <?php?>
                 <li class="nav-item">
-                    <a href="<?= base_url('kategori'); ?>" class="nav-link">
+                    <a href="kategori" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Kategori
                         </p>
                     </a>
                 </li>
-                <li class="nav-item">
+               
+            </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+    </div><li class="nav-item">
                     <a href="<?= base_url('barang'); ?>" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
@@ -51,9 +53,7 @@
                         </p>
                     </a>
                 </li>
-                <?php
-                    }
-                ?>
+                <?php?>
                 <li class="nav-item">
                     <a href="<?= base_url('Login/logout'); ?>" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
@@ -66,5 +66,7 @@
         </nav>
         <!-- /.sidebar-menu -->
     </div>
+    <!-- /.sidebar -->
+</aside>
     <!-- /.sidebar -->
 </aside>

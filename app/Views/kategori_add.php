@@ -1,7 +1,7 @@
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <section class="content-header">
+    <section class="content-part_adm/header">
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
@@ -18,12 +18,12 @@
     </section>
 
     <!-- Main content -->
-    <section class="content">
+   <section class="content">
 
         <!-- Default box -->
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">Title</h3>
+                <h3 class="card-title">Form Tambah Kategori</h3>
 
                 <div class="card-tools">
                     <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -34,7 +34,19 @@
                     </button>
                 </div>
             </div>
-            <div class="card-body">
+            <form action="" method="post">
+    <div class="card-body">
+        <div class="form-group">
+            <label for="nama_kategori">Nama Kategori</label>
+            <input type="text" class="form-control" id="nama_kategori" name="nama_kategori" placeholder="Enter Nama Kategori" required>
+        </div>
+    </div>
+    <!-- /.card-body -->
+    <div class="card-footer">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>
+
                 Start creating your amazing application!
             </div>
             <!-- /.card-body -->
